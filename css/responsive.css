@@ -1,0 +1,133 @@
+
+@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+    .works_area_row:before {
+        width: calc(100% - 245px);
+    }
+
+}
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+    .site_header .nav-item {
+        padding-top: 10px;
+    }
+    .works_area_row:before {
+        width: calc(100% - 185px);
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+   
+    .hero_content a {
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .hero_content h1 {
+        font-size: 30px;
+    }
+    .hero_content p {
+        font-size: 14px;
+    }
+    .navbar-brand img{
+        max-width: 100px;
+    }
+    .sec_title h5 {
+        font-size: 18px;
+    }
+    .sec_title h2 {
+        font-size: 20px;
+    }
+    .client_item{
+        text-align: center;
+    }
+    .testimonial_slide .carousel-control-next, .testimonial_slide .carousel-control-prev {
+        display: none;
+    }
+    .testimonial_item {
+        padding-bottom: 70px;
+    }
+    .testimonial_area {
+        padding: 50px 0px;
+    }
+    .getInTouch_area {
+        padding: 80px 0px;
+    }
+    .footer_form {
+        padding-top: 30px;
+    }
+    .footerNav_area {
+        padding: 80px 0px;
+    }
+    .footerNav_area .col-md-3{
+        padding-top: 30px;
+    }
+    .healthcare_area {
+        background: url(../images/bg-2.png) left 50% center no-repeat;
+        background-size: cover;
+        padding: 80px 0px;
+    }
+    .healthcare_content h2{
+        font-size: 24px;
+    }
+    .healthcare_content h5 {
+        font-size: 18px;
+    }
+    .form_btn_row {
+        margin-top: 0px;
+        text-align: left;
+    }
+    .getInTouch_area:before {
+        left: 0px;
+        width: 100%;
+    }
+    .healthcare_content a {
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .works_item {
+        text-align: left;
+        padding-left: 50px;
+        position: relative;
+    }
+    .works_item p{
+        margin: 0;
+    }
+    .works_area_row:before {
+        width: 1px;
+        height: 100%;
+        left: 17px;
+        top: 50px ;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .works_item_bullet{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .works_area .col-md-3 {
+        padding-top: 35px;
+    }
+    .works_area .sec_title {
+        padding-bottom: 30px;
+    }
+    .getInTouch_content h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+
+
+
+
+
+
+}
